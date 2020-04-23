@@ -1,0 +1,248 @@
+/****************************TAG SELECTORS********************************/
+body {
+  background-color: #ffdfdf;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #204051;
+  text-decoration: none;
+  margin: 0 4.3px 3px 4.3px;
+}
+
+a:hover {
+  color: #fe346e;
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  text-align: left;
+  color: #347474;
+}
+
+h2 {
+  font-family: 'Spectral', serif;
+  font-size: 2rem;
+  padding-top: 10px;
+  color: #347474;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+
+h3 {
+  font-family: 'Spectral', serif;
+  color: #010a43;
+  padding: 1.2%;
+}
+
+h4 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: .9rem;
+  margin-left: 0;
+  font-weight: 700;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #404b69;
+  border-width: 5.55px;
+  width: 18.66%;
+}
+
+p {
+  padding: 1.2%;
+}
+
+/*************************CLASS SELECTORS************************/
+/* TITLE */
+.navbar-brand {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-left: 0;
+}
+
+.nav-item {
+  margin: 0 9px;
+}
+
+.description {
+  padding-top: 102px;
+  padding-left: 0;
+}
+
+.matchbox {
+  width: 450px;
+  border-radius: 100%;
+}
+
+.bandcamp {
+  padding: 18px;
+  text-align: left;
+  /* ALINEAR BOTON */
+  display: block;
+  margin-left: 0;
+}
+
+/* BANDAS */
+.fosoforospng {
+  width: 51%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .release-art{
+} */
+#releases {
+  padding: 3% 12% 6%;
+  background-color: #ffdfdf;
+}
+
+.lanzamientos-carousel {
+  width: 1113px;
+  height: 222px;
+  object-fit: cover;
+  padding: 0;
+  margin: 0 0 6%;
+}
+
+.carousel-1 {
+  text-align: center;
+  margin-top: 1.5%;
+}
+
+.image {
+  width: 212px;
+  padding-bottom: 6%;
+}
+
+.link-img {
+  width: 212px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* <img class="lanzamientos img-thumbnail" src="images/ART ALBUMS/Transiberiano.jpg" alt="TRANS" style="
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+"> */
+.lanzamientos {
+  width: 212px;
+  padding: 0;
+  margin: 0;
+}
+
+.artist-release {
+  font-family: 'Spectral';
+  font-size: .9rem;
+  color: black;
+  padding-top: 1.8%;
+}
+
+.text-rel {
+  text-align: left;
+}
+
+/* NOSOTROS */
+#nosotros {
+  padding: 6% 21%;
+  background-color: #fff0f5
+}
+
+.us-row {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.bioimg {
+  float: right;
+  width: 18%;
+}
+
+.misionimg {
+  float: left;
+  width: 18%;
+  margin-right: 30px;
+  position: relative;
+  bottom: 21px;
+}
+
+/* CONTACTO */
+#contact-me {
+  padding: 12% 18%;
+}
+
+/* REDES */
+#bottom-container {
+  background-color: #f5c3bc;
+  padding: 3.3% 6%;
+}
+
+/* DERECHOS */
+.copyriht {
+  font-size: .81rem;
+  font-weight: lighter;
+  margin-bottom: 0;
+  padding: 12px;
+}
+
+/* NUESTRAINFO */
+.infohr {
+  width: 9%;
+  margin: 0 auto;
+}
+
+#our-info {
+  padding: 18% 18%;
+}
+
+/*************************ID SELECTORS************************/
+#cabeza {
+  padding: 6% 15%;
+  background-color: #f5c3bc;
+}
+
+/* CSSMEDIAQUERY */
+@media (max-width:994px) {
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .bandcamp {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .bioimg {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .misionimg {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
